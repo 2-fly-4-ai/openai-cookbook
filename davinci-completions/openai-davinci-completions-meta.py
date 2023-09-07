@@ -25,7 +25,7 @@ for record_id,term in zip(df["record_id"],df["Name"]):
     retries = 0
     while retries < MAX_RETRY:
         try:
-            openai.api_key = random.choice(["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","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","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","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","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","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","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","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"])
+            openai.api_key = random.choice(["YOUR_API_KEY_OR_KEYS_HERE"])
             response = openai.Completion.create(
             engine="text-davinci-003",
             prompt= setup,
