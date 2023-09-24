@@ -24,7 +24,7 @@ with youtube_dl.YoutubeDL(ytdl_opts) as ytdl:
 # Step 2: Transcribe the Audio
 
 # OpenAI and file setup
-API_KEY = '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'  # Replace this with your actual OpenAI API key
+API_KEY = 'YOUR_API_KEY_HERE'  # Replace this with your actual OpenAI API key
 model_id = 'whisper-1'
 audio_file_path = 'downloads/winnie_the_pooh.mp4'  # Make sure it matches the format downloaded
 
